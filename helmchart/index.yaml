@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  game-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-06-27T21:56:47.483538776Z"
+    description: A Helm chart for Kubernetes
+    digest: 9374239b018f240522146dbddf0ba07d78719a57b007a842cedd8a30eb848dc4
+    name: game-app
+    type: application
+    urls:
+    - game-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-06-27T21:56:47.482738008Z"
