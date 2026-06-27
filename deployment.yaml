@@ -4,7 +4,7 @@ metadata:
   name: game-app
   namespace: myns
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: game
