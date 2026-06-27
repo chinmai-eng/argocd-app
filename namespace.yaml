@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: myns
+
+---
+
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: myrs
+  namespace: myns
+spec:
+  hard:
+    limits.cpu: "1500M"
+    limits.memory: "1200Gi"
+    requests.cpu: "1000"
+    requests.memory: "900Mi"

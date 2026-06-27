@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: game-app
+  namespace: myns
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: game
+  template:
+    metadata:
+      labels:
+        app: game
+
+    spec:
+      containers:
+        - name: tetris
+          image: chinmaich316/game:v1
+          ports:
+            - containerPort: 80 
+
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "250Mi"
+            limits:
+              cpu: "500M"
+              memory: "500Mi"
+
