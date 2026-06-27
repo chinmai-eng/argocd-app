@@ -3,12 +3,12 @@ entries:
   game-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-06-27T21:56:47.483538776Z"
+    created: "2026-06-27T22:09:22.519434131Z"
     description: A Helm chart for Kubernetes
-    digest: 9374239b018f240522146dbddf0ba07d78719a57b007a842cedd8a30eb848dc4
+    digest: 65d028a190d44f5c255ff606c2272304976e60a27f353c3e6ed0a7c6f04383a0
     name: game-app
     type: application
     urls:
     - game-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-27T21:56:47.482738008Z"
+generated: "2026-06-27T22:09:22.518697119Z"
